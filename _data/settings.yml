@@ -1,0 +1,40 @@
+menu:
+- {name: 'People', url: '/people'}
+- {name: 'Publications', url: '/publications'}
+#- {name: 'courses', url: '/courses'}
+#- {name: 'cv', url: '/cv'}
+#- {name: 'contact', url: '/contact'}
+- {name: 'News' , url: '/news'}
+
+people:
+- {name: 'Christian Esteve Rothenberg', title: 'Director', department: 'Electrical Engineering', institution: 'UNICAMP', institution_address: 'DCA-FEEC, Campinas, Brazil', phone: '(000) 000-0000', email: 'chesteve@unicamp.br', office: 'FEEC', image: 'assets/img/Chris.png', url: 'director'}
+- {name: 'Maria Valéria Marquezini', title: 'Deputy Director', department: 'Research', institution: 'Ericsonn', institution_address: 'Ericsson, Brazil', phone: '(000) 000-0000', email: 'valeria@ericsonn.com', office: 'Ericsonn', image: 'assets/img/valeria.jpg', url: 'deputyd'}
+- {name: 'Jó Ueyama', title: 'Technology Transfer Coordinator', department: 'Computer Sciences', institution: 'USP', institution_address: 'ICMC/UPS', phone: '(000) 000-0000', email: 'jouyema@usp.br', office: 'USP', image: 'assets/img/Jueyama.jpg', url: 'ttc'}
+- {name: 'Matheus Santos', title: 'Deputy Technology Transfer Coordinator', department: 'Research', institution: 'Ericsson', institution_address: 'Ericsson, Brazil', phone: '(000) 000-0000', email: 'matheus@ericsson.br', office: 'Ericson', image: 'assets/img/Matheus.jpg', url: 'ttc'}
+- {name: 'Luiz Bittencourt', title: 'Education and Dissemination Coordinator', department: 'Institute of Computing', institution: 'UNICAMP', institution_address: 'IC, Campinas, Brazil', phone: '(000) 000-0000', email: 'luiz@unicamp.br', office: 'IC', image: 'assets/img/luiz.jpg', url: 'educoord'}
+- {name: 'Pedro Henrique Gomes', title: 'Deputy Education and Dissemination Coordinator', department: 'Research', institution: 'Ericsson', institution_address: 'Ericsson, Brazil', phone: '(000) 000-0000', email: 'pedro@ericsson.br', office: 'Ericson', image: 'assets/img/pedro.jpg', url: 'ttc'}
+- {name: 'Hugo Figueiroa', title: 'Partenship Coordinator', department: 'Electrical Engineering', institution: 'UNICAMP', institution_address: 'FEEC, Campinas, Brazil', phone: '(000) 000-0000', email: 'hugo@unicamp.br', office: 'FEEC', image: 'assets/img/hugo.jpg', url: 'deputytcc'}
+- {name: 'Fernando von Zuben', title: 'Machine Intelligence STA Leader', department: 'Electrical Engineering', institution: 'UNICAMP', institution_address: 'FEEC, Campinas, Brazil', phone: '(000) 000-0000', email: 'fernando@unicamp.br', office: 'FEEC', image: 'assets/img/fernando.jpg', url: 'primary-investigator'}
+- {name: 'Ricardo Gudwin', title: 'Cognitive Architectures STA Leader', department: 'Electrical Engineering', institution: 'UNICAMP', institution_address: 'FEEC, Campinas, Brazil', phone: '(000) 000-0000', email: 'ricardo@unicamp.br', office: 'FEEC', image: 'assets/img/ricardo.jpg', url: 'primary-investigator'}
+- {name: 'Tereza Christina Carvalho', title: 'Sustainability STA Leader', department: 'Electrical Engineering', institution: 'POLI/USP', institution_address: 'USP, São Paulo, Brazil', phone: '(000) 000-0000', email: 'tereza@usp.br', office: 'POLI', image: 'assets/img/tereza.jpg', url: 'primary-investigator'}
+- {name: 'Edmundo Madeira', title: 'Customized Edge Computing STA Leader', department: 'Institute of Computing', institution: 'UNICAMP', institution_address: 'IC, Campinas, Brazil', phone: '(000) 000-0000', email: 'edmundo@unicamp.br', office: 'IC', image: 'assets/img/edmundo.jpg', url: 'primary-investigator'}
+- {name: 'Marco Aurélio Amaral Henriques', title: 'Thrustworthiness STA Leader', department: 'Electrical Engineering', institution: 'UNICAMP', institution_address: 'DCA-FEEC, Campinas, Brazil', phone: '(000) 000-0000', email: 'marco@unicamp.br', office: 'FEEC', image: 'assets/img/Marco.jpg', url: 'primary-investigator'}
+- {name: 'Fábio Verdi', title: 'Associate Researcher', department: 'Computing', institution: 'Federal University of São Carlos', institution_address: 'UFSCar, São Carlos, Brazil', phone: '(000) 000-0000', email: 'fabio@ufscar.br', office: 'CP', image: 'assets/img/verdi.jpg', url: 'primary-investigator'}
+- {name: 'Daniel Batista', title: 'Associate Researcher', department: 'Computer Sciences', institution: 'USP', institution_address: 'USP, São Paulo ', phone: '(000) 000-0000', email: 'daneil@usp.br', office: 'IME/USP', image: 'assets/img/daniel.jpg', url: 'primary-investigator'}
+
+
+#- {name: '"Example of optimal image dimension"', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
+
+courses:
+- {name: 'Vector Calculus', url: 'vector-calculus'}
+- {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
+- {name: 'Stellar Structures', url: 'stellar-structures'}
+
+social:
+- {icon: 'github', link: 'https://github.com/smartness2030'}
+- {icon: 'twitter', link: 'https://twitter.com'}
+- {icon: 'instagram', link: 'https://instagram.com'}
+- {icon: 'linkedin', link: 'https://linkedin.com'}
+
+contacts:
+- {name: 'Dr. Academia', title: 'Professor', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/contact.jpg'}
