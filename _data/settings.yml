@@ -1,10 +1,14 @@
 menu:
-- {name: 'People', url: '/people'}
-- {name: 'Publications', url: '/publications'}
+- {name: 'About', url: '/people'}
+- {name: 'News', url: '/news'}
+- {name: 'Results', url: '/news'}
+- {name: 'Events', url: '/news'}
+- {name: 'Consortium', url: '/news'}
+- {name: 'Contact', url: '/news'}
 #- {name: 'courses', url: '/courses'}
 #- {name: 'cv', url: '/cv'}
 #- {name: 'contact', url: '/contact'}
-- {name: 'News' , url: '/news'}
+
 
 people:
 - {name: 'Christian Esteve Rothenberg', title: 'Director', department: 'Electrical Engineering', institution: 'UNICAMP', institution_address: 'DCA-FEEC, Campinas, Brazil', phone: '(000) 000-0000', email: 'chesteve@unicamp.br', office: 'FEEC', image: 'assets/img/Chris.png', url: 'director'}
