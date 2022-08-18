@@ -1,17 +1,17 @@
 menu:
+- {name: 'Home', url: '/index'}
 - {name: 'About', url: '/people'}
+- {name: 'Research', url: '/news'}
 - {name: 'News', url: '/news'}
-- {name: 'Results', url: '/news'}
-- {name: 'Events', url: '/news'}
-- {name: 'Consortium', url: '/news'}
-- {name: 'Contact', url: '/news'}
+- {name: 'Resources', url: '/news'}
+- {name: 'Opportunities', url: '/news'}
 #- {name: 'courses', url: '/courses'}
 #- {name: 'cv', url: '/cv'}
 #- {name: 'contact', url: '/contact'}
 
 
 people:
-- {name: 'Christian Esteve Rothenberg', title: 'Director', department: 'Electrical Engineering', institution: 'UNICAMP', institution_address: 'DCA-FEEC, Campinas, Brazil', phone: '(000) 000-0000', email: 'chesteve@unicamp.br', office: 'FEEC', image: 'assets/img/Chris.png', url: 'director'}
+- {name: 'Christian Esteve Rothenberg', title: 'Director', department: 'Electrical Engineering', institution: 'UNICAMP', institution_address: 'DCA-FEEC, Campinas, Brazil', phone: '(000) 000-0000', email: 'chesteve@unicamp.br', office: 'FEEC', image: 'assets/img/Chris.png', icon: 'linkedin', link: 'https://br.linkedin.com/in/christianrothenberg?trk=public_post_share-update_actor-text'}
 - {name: 'Maria Valéria Marquezini', title: 'Deputy Director', department: 'Research', institution: 'Ericsonn', institution_address: 'Ericsson, Brazil', phone: '(000) 000-0000', email: 'valeria@ericsonn.com', office: 'Ericsonn', image: 'assets/img/valeria.jpg', url: 'deputyd'}
 - {name: 'Jó Ueyama', title: 'Technology Transfer Coordinator', department: 'Computer Sciences', institution: 'USP', institution_address: 'ICMC/UPS', phone: '(000) 000-0000', email: 'jouyema@usp.br', office: 'USP', image: 'assets/img/Jueyama.jpg', url: 'ttc'}
 - {name: 'Matheus Santos', title: 'Deputy Technology Transfer Coordinator', department: 'Research', institution: 'Ericsson', institution_address: 'Ericsson, Brazil', phone: '(000) 000-0000', email: 'matheus@ericsson.br', office: 'Ericson', image: 'assets/img/Matheus.jpg', url: 'ttc'}
