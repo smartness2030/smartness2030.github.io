@@ -1,18 +1,18 @@
 menu:
 - {name: 'Home', url: '/index'}
 - {name: 'About', url: '/people'}
-- {name: 'Research', url: '/news'}
+- {name: 'Research', url: '/research'}
 - {name: 'News', url: '/news'}
-- {name: 'Resources', url: '/news'}
-- {name: 'Opportunities', url: '/news'}
+- {name: 'Resources', url: '/resources'}
+- {name: 'Opportunities', url: '/oport'}
 #- {name: 'courses', url: '/courses'}
 #- {name: 'cv', url: '/cv'}
 #- {name: 'contact', url: '/contact'}
 
 
 people:
-- {name: 'Christian Esteve Rothenberg', title: 'Director', department: 'Electrical Engineering', institution: 'UNICAMP', institution_address: 'DCA-FEEC, Campinas, Brazil', phone: '(000) 000-0000', email: 'chesteve@unicamp.br', office: 'FEEC', image: 'assets/img/Chris.png', icon: 'linkedin', link: 'https://br.linkedin.com/in/christianrothenberg?trk=public_post_share-update_actor-text'}
-- {name: 'Maria Valéria Marquezini', title: 'Deputy Director', department: 'Research', institution: 'Ericsonn', institution_address: 'Ericsson, Brazil', phone: '(000) 000-0000', email: 'valeria@ericsonn.com', office: 'Ericsonn', image: 'assets/img/valeria.jpg', url: 'deputyd'}
+- {name: 'Christian Esteve Rothenberg', title: 'Director', department: 'Electrical Engineering', institution: 'UNICAMP', institution_address: 'DCA-FEEC, Campinas, Brazil', phone: '(000) 000-0000', email: 'chesteve@unicamp.br', office: 'FEEC', image: 'assets/img/Chris.png', icon: 'linkedin', link: 'https://br.linkedin.com/in/christianrothenberg/', link2: 'https://www.researchgate.net/profile/Christian-Esteve-Rothenberg'}
+- {name: 'Maria Valéria Marquezini', title: 'Deputy Director', department: 'Research', institution: 'Ericsonn', institution_address: 'Ericsson, Brazil', phone: '(000) 000-0000', email: 'valeria@ericsonn.com', office: 'Ericsonn', image: 'assets/img/valeria.jpg', icon: 'linkedin', link: 'https://br.linkedin.com/in/maria-valéria-marquezini-phd-2035945/'}
 - {name: 'Jó Ueyama', title: 'Technology Transfer Coordinator', department: 'Computer Sciences', institution: 'USP', institution_address: 'ICMC/UPS', phone: '(000) 000-0000', email: 'jouyema@usp.br', office: 'USP', image: 'assets/img/Jueyama.jpg', url: 'ttc'}
 - {name: 'Matheus Santos', title: 'Deputy Technology Transfer Coordinator', department: 'Research', institution: 'Ericsson', institution_address: 'Ericsson, Brazil', phone: '(000) 000-0000', email: 'matheus@ericsson.br', office: 'Ericson', image: 'assets/img/Matheus.jpg', url: 'ttc'}
 - {name: 'Luiz Bittencourt', title: 'Education and Dissemination Coordinator', department: 'Institute of Computing', institution: 'UNICAMP', institution_address: 'IC, Campinas, Brazil', phone: '(000) 000-0000', email: 'luiz@unicamp.br', office: 'IC', image: 'assets/img/luiz.jpg', url: 'educoord'}
@@ -38,7 +38,7 @@ social:
 - {icon: 'github', link: 'https://github.com/smartness2030'}
 - {icon: 'twitter', link: 'https://twitter.com'}
 - {icon: 'instagram', link: 'https://instagram.com'}
-- {icon: 'linkedin', link: 'https://linkedin.com'}
+- {icon: 'linkedin', link: 'https://linkedin.com/company/smartness2030/'}
 
 contacts:
 - {name: 'Dr. Academia', title: 'Professor', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/contact.jpg'}
