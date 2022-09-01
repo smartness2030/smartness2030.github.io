@@ -7,10 +7,11 @@ layout: default
 <h3 class="fw-bold border-bottom pb-3 mb-5">People</h3>
 {% for person in site.data.settings.people %}
 <div class="row g-5 mb-5" >
-  <div class="col-md-6">
-    <h5>{{ person.name }}</h5>
-    <p>Email: {{ person.email }}</p>
-    <p><i class="{{ person.item }}"></i><a href="{{ person.link }}" target="_blank" rel="noopener noreferrer">LinkedIn</a> | <i class="{{ person.item }}"></i><a href="{{ person.link2 }}" target="_blank" rel="noopener noreferrer">Research Gate</a> </p>
+  <div class="container-fluid col-md-6">
+    <h4 class="fw-bold text-center">{{ person.name }}</h4>
+    <h5 class="text-center">{{ person.title }}</h5>
+    <p class="text-center">Email: {{ person.email }}</p>
+    <p class="text-center"><i class="{{ person.item }}"></i><a href="{{ person.link }}" target="_blank" rel="noopener noreferrer">LinkedIn</a> | <i class="{{ person.item }}"></i><a href="{{ person.link2 }}" target="_blank" rel="noopener noreferrer">Research Gate</a> </p>
 <!--    <p>Phone: {{ person.phone }}</p> -->
 <!--  <p><a href="{{ site.github.url }}/people/{{ person.url }}">More info</a></p> -->
  </div>

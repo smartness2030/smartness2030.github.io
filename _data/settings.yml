@@ -1,13 +1,21 @@
 menu:
+- {name: 'People', url: '/people'}
+
+menu2:
 - {name: 'Home', url: '/index'}
-- {name: 'About', url: '/people'}
+
+menu3:
 - {name: 'Research', url: '/research'}
+
+menu4:
 - {name: 'News', url: '/news'}
-- {name: 'Resources', url: '/resources'}
+
+menu6:
 - {name: 'Opportunities', url: '/oport'}
-#- {name: 'courses', url: '/courses'}
-#- {name: 'cv', url: '/cv'}
-#- {name: 'contact', url: '/contact'}
+
+menu5:
+- {name: 'Resources', url: '/resources'}
+
 
 
 people:
@@ -22,7 +30,7 @@ people:
 - {name: 'Ricardo Gudwin', title: 'Cognitive Architectures STA Leader', department: 'Electrical Engineering', institution: 'UNICAMP', institution_address: 'FEEC, Campinas, Brazil', phone: '(000) 000-0000', email: 'ricardo@unicamp.br', office: 'FEEC', image: 'assets/img/ricardo.jpg', url: 'primary-investigator'}
 - {name: 'Tereza Christina Carvalho', title: 'Sustainability STA Leader', department: 'Electrical Engineering', institution: 'POLI/USP', institution_address: 'USP, São Paulo, Brazil', phone: '(000) 000-0000', email: 'tereza@usp.br', office: 'POLI', image: 'assets/img/tereza.jpg', url: 'primary-investigator'}
 - {name: 'Edmundo Madeira', title: 'Customized Edge Computing STA Leader', department: 'Institute of Computing', institution: 'UNICAMP', institution_address: 'IC, Campinas, Brazil', phone: '(000) 000-0000', email: 'edmundo@unicamp.br', office: 'IC', image: 'assets/img/edmundo.jpg', url: 'primary-investigator'}
-- {name: 'Marco Aurélio Amaral Henriques', title: 'Thrustworthiness STA Leader', department: 'Electrical Engineering', institution: 'UNICAMP', institution_address: 'DCA-FEEC, Campinas, Brazil', phone: '(000) 000-0000', email: 'marco@unicamp.br', office: 'FEEC', image: 'assets/img/Marco.jpg', url: 'primary-investigator'}
+- {name: 'Marco Aurélio Amaral Henriques', title: 'Trustworthiness STA Leader', department: 'Electrical Engineering', institution: 'UNICAMP', institution_address: 'DCA-FEEC, Campinas, Brazil', phone: '(000) 000-0000', email: 'marco@unicamp.br', office: 'FEEC', image: 'assets/img/Marco.jpg', url: 'primary-investigator'}
 - {name: 'Fábio Verdi', title: 'Associate Researcher', department: 'Computing', institution: 'Federal University of São Carlos', institution_address: 'UFSCar, São Carlos, Brazil', phone: '(000) 000-0000', email: 'fabio@ufscar.br', office: 'CP', image: 'assets/img/verdi.jpg', url: 'primary-investigator'}
 - {name: 'Daniel Batista', title: 'Associate Researcher', department: 'Computer Sciences', institution: 'USP', institution_address: 'USP, São Paulo ', phone: '(000) 000-0000', email: 'daneil@usp.br', office: 'IME/USP', image: 'assets/img/daniel.jpg', url: 'primary-investigator'}
 

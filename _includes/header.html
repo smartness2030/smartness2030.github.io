@@ -7,9 +7,45 @@
       <span>{{ site.description }}</span>
     </a>
   </div>
-  <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+ <!-- <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
     {% for item in site.data.settings.menu %}
       <a class="me-3 py-2 text-decoration-none" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
     {% endfor %}
+  </nav> -->
+  <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+    <ul class="nav__list">
+      
+      <li class="nav__listitem">{% for item in site.data.settings.menu2 %}
+          <a class="text-decoration-none" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+        {% endfor %}
+      </li>
+        <li class="nav__listitem">About
+        <ul class="nav__listitemdrop">
+          <li>{% for item in site.data.settings.menu %}
+            <a class="text-decoration-none" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+          {% endfor %}
+          </li>
+          </ul>
+      </li>
+      <li class="nav__listitem">Research
+        <ul class="nav__listitemdrop">
+          <li>{% for item in site.data.settings.menu3 %}
+            <a class="me-3 py-2 text-decoration-none" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+          {% endfor %}
+        </li>
+          <li>Use cases</li>
+        </ul>
+        </li>
+      <li class="nav__listitem">{% for item in site.data.settings.menu4 %}
+        <a class="text-decoration-none" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+      {% endfor %}</li>
+      <li class="nav__listitem">{% for item in site.data.settings.menu5 %}
+        <a class="text-decoration-none" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+      {% endfor %}</li>
+      <li class="nav__listitem">{% for item in site.data.settings.menu6 %}
+        <a class="text-decoration-none" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+      {% endfor %}</li>
+    </ul>
   </nav>
+
 </header>
