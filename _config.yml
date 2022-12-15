@@ -1,4 +1,2 @@
-url: "https://smartness2030.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "SMARTNESS 2030" # the name of your site, e.g. ACME Corp.
+title: "SMARTNESS 2030"
 description: "A network-centric Engineering Research Center"
